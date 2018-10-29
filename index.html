@@ -11,10 +11,9 @@ title: Trang chủ
 		</a>
 		<div class="card-body">
 			<a href="{{ post.url }}"><h5 class="card-title">{{ post.title }}</h5></a>
-			<p class="card-text">{{ post.description }}</p>
 		</div>
-		<div class="card-footer">
-			<small class="text-muted">{{ post.date | date_format: "%m-%d-%Y" }}</small>
+		<div class="card-footer text-center">
+			<a href="{{ post.url }}" class="btn btn-sm btn-primary btn-download"><strong>Download</strong></a>
 		</div>
 	</div>
 	{% endfor %}
