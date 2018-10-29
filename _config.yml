@@ -1,7 +1,8 @@
 title: Res Top Down
 permalink: /:title.html
-baseurl: "restopdown.github.io"
-site_url: "restopdown.github.io"
+name : Resource Top Download
+baseurl: ""
+site_url: ""
 
 # Exclude these files from your production _site
 exclude:
