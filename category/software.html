@@ -1,0 +1,11 @@
+---
+layout: category
+permalink: /software.html
+title: Software
+---
+
+<ul class="list-group">
+	{% for software in site.categories.software %}
+	<li class="list-group-item"><a href="{{ software.url }}">{{ software.title }}</a></li>
+	{% endfor %}
+</ul>

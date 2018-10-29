@@ -1,0 +1,11 @@
+---
+layout: category
+permalink: /game.html
+title: Game
+---
+
+<ul class="list-group">
+	{% for game in site.categories.game %}
+	<li class="list-group-item"><a href="{{ game.url }}">{{ game.title }}</a></li>
+	{% endfor %}
+</ul>

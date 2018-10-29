@@ -1,0 +1,11 @@
+---
+layout: category
+permalink: /course.html
+title: Course
+---
+
+<ul class="list-group">
+	{% for course in site.categories.course %}
+	<li class="list-group-item"><a href="{{ course.url }}">{{ course.title }}</a></li>
+	{% endfor %}
+</ul>

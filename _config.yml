@@ -1,3 +1,14 @@
-name: Resource Top Download
-site_name: Resource Top Download
+title: Res Top Down
 permalink: /:title.html
+baseurl: "localhost:4000"
+site_url: "localhost:4000"
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CNAME
+
+timezone: Asia/Ho_Chi_Minh
+date_format: "%d-%m-%Y"
