@@ -1,7 +1,7 @@
 title: Res Top Down
 permalink: /:title.html
-baseurl: "localhost:4000"
-site_url: "localhost:4000"
+baseurl: "restopdown.github.io"
+site_url: "restopdown.github.io"
 
 # Exclude these files from your production _site
 exclude:
