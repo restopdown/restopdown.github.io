@@ -6,9 +6,10 @@ layout: default
 	<h1 title="{{ page.title }}">{{ page.title }}</h1>
 	<hr/>
 	<!-- <p>{{ page.date | date: '%d-%m-%Y' }}</p> -->
+	<img src="/assets/img{{ page.thumbnail }}" alt="{{ page.title }}" title="{{ page.title }}" class="img_head_post">
 
 	{{ content }}
-	<img src="/assets/img{{ page.thumbnail }}" alt="{{ page.title }}" title="{{ page.title }}">
+	
 	<div class="page-tag">
 		{% for tag in page.tags %}
 		<a href="{{site.baseurl}}/tags#{{tag}}" class="tag">&#35;{{ tag }}</a>
